@@ -1,6 +1,10 @@
-Currency Converter
+# Currency Converter
+
 This is a Python-based Currency Converter application that uses the Fixer.io API to fetch real-time currency exchange rates. The program allows users to convert amounts between currencies, view a list of supported currencies, and exit the application gracefully.
-Features
+
+---
+
+## Features
 
 1. **Convert Currency**: Allows users to convert a specified amount from one currency to another based on real-time exchange rates.
 2. **Show Supported Currencies**: Displays a comprehensive list of supported currencies and their descriptions.
@@ -15,7 +19,10 @@ Features
 - Internet connection (required to fetch currency exchange rates from the Fixer.io API)
 - API Key for Fixer.io (you can obtain one by registering at [Fixer.io](https://fixer.io))
 
-Installation
+---
+
+## Installation
+
 1. Clone the repository or download the script:
    ```bash
    git clone https://github.com/your-repository/currency-converter.git
@@ -32,7 +39,9 @@ Installation
    API_KEY = "your_fixer_api_key"
    ```
 
-   Usage
+---
+
+## Usage
 
 1. Run the script:
    ```bash
@@ -48,7 +57,9 @@ Installation
    - **2. Show**: Displays the list of supported currencies.
    - **3. Quit**: Exits the program.
 
-Example
+---
+
+## Example
 
 ```text
 ************************************************************
@@ -63,7 +74,10 @@ Enter the Amount With Currency to Currency eg :100 INR USD : 100 INR USD
 ************************************************************
 100 INR is equal to 1.21 USD as per the current rates.
 ```
-Supported Currencies
+
+---
+
+## Supported Currencies
 
 The program supports a wide range of currencies, including:
 
@@ -75,27 +89,36 @@ The program supports a wide range of currencies, including:
 
 ...and many more. Run the program and choose option 2 to view the complete list.
 
-Error Handling
+---
+
+## Error Handling
 
 - **Invalid Input Format**: If the input does not match the required format, the program will prompt the user to re-enter.
 - **Invalid Currency Code**: If unsupported currency codes are entered, an error message is displayed.
 - **Network Issues**: If the API request fails, a descriptive error message is shown.
 
-Limitations
+---
+
+## Limitations
 
 1. The program depends on the Fixer.io API and requires an active internet connection.
 2. Free-tier Fixer.io API keys only support EUR as the base currency. Consider upgrading for full functionality.
 
 ---
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contributing
+---
+
+## Contributing
 
 Contributions are welcome! Feel free to fork the repository, make improvements, and submit a pull request.
-Acknowledgments
+
+---
+
+## Acknowledgments
 
 - [Fixer.io](https://fixer.io) for providing the currency exchange rates API.
 - Python community for helpful libraries like `requests` and `pprint`.
